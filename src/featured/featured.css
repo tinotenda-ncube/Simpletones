@@ -1,0 +1,202 @@
+.featured {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 90vw;
+  margin: 10vh auto;
+}
+
+.ft-products {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.topic-ft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 50vw;
+}
+
+.ft-header {
+  font-size: 1.2rem;
+  padding: .5rem;
+  border-bottom: 3px solid black;
+}
+
+.ft-tagline {
+  text-align: center;
+  font-weight: 500;
+  font-size: .8rem;
+  margin-bottom: 3rem;
+}
+
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 4px;
+  padding: 0px;
+  max-width: 350px;
+  max-height: 620px;
+  background-color: white;
+  z-index: 1;
+  margin-bottom: 4rem;
+}
+
+.prod-image img {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 0.2rem;
+}
+
+.prod-info {
+  width: 100%;
+}
+
+.label {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 0rem 0rem 0rem 0rem;
+  padding: 0px;
+}
+
+.prod-info .p-tag {
+  font-weight: 400;
+  font-size: .8rem;
+  margin-bottom: .5rem;
+}
+
+.price {
+  font-size: 1rem;
+  font-family: 400;
+  margin-bottom: .5rem;
+}
+
+.button {
+  width: 100%;
+}
+
+.button button {
+  padding: .7rem 2rem;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: .9rem;
+  width: 100%;
+}
+
+@media only screen and (max-width: 769px) {
+  .product {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 4px;
+    padding: 0px;
+    max-width: 350px;
+    max-height: 620px;
+    background-color: white;
+    z-index: 1;
+    margin-bottom: 1rem;
+  }
+  .prod-image img {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    margin-bottom: 0.2rem;
+  }
+  .prod-info {
+    width: 100%;
+  }
+  .label {
+    font-size: .6rem;
+    text-transform: uppercase;
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 0px;
+  }
+  .prod-info .p-tag {
+    font-weight: 400;
+    font-size: .6rem;
+    margin-bottom: .5rem;
+  }
+  .price {
+    font-size: 1rem;
+    font-family: 400;
+    margin-bottom: .5rem;
+  }
+  .button {
+    width: 100%;
+  }
+  .button button {
+    padding: .7rem 2rem;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: .9rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .ft-header {
+    font-size: .8rem;
+    padding: .5rem;
+    border-bottom: 3px solid black;
+  }
+  .ft-products {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    max-width: 1500px;
+    margin: 2rem auto;
+  }
+}
+/*# sourceMappingURL=featured.css.map */

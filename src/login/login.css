@@ -1,0 +1,200 @@
+.login-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1651&q=80);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.login-page .information-pad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  min-height: 55vh;
+  width: 400px;
+  padding: 20px;
+}
+
+.login-page .information-pad .logo-lg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.5rem;
+  margin: 2rem;
+  color: black;
+  text-decoration: none;
+}
+
+.login-page .information-pad a {
+  text-decoration: none;
+}
+
+.login-page .information-pad .some-text {
+  font-size: .8rem;
+}
+
+.login-page .information-pad .t-c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: .8rem;
+}
+
+.login-page .information-pad form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.login-page .information-pad form .email {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.login-page .information-pad form .email input {
+  margin-top: .5rem;
+  border: 1px solid black;
+  width: 95%;
+  padding: .5rem .5rem;
+}
+
+.login-page .information-pad form .email label {
+  font-weight: 500;
+}
+
+.login-page .information-pad form .user-id {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.login-page .information-pad form .user-id input {
+  margin-top: .5rem;
+  border: 1px solid black;
+  width: 100%;
+  padding: .5rem .5rem;
+}
+
+.login-page .information-pad form .user-id label {
+  font-weight: 500;
+}
+
+.login-page .information-pad form .password {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.login-page .information-pad form .password input {
+  margin-top: .5rem;
+  border: 1px solid black;
+  width: 95%;
+  padding: .5rem .5rem;
+}
+
+.login-page .information-pad form .password label {
+  font-weight: 500;
+}
+
+.login-page .information-pad .buttons-lg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.login-page .information-pad .buttons-lg button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+  width: 100%;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  border: 2px solid black;
+  font-weight: 500;
+}
+
+.login-page .information-pad .buttons-lg1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.login-page .information-pad .buttons-lg1 button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+  width: 100%;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+/*# sourceMappingURL=login.css.map */
