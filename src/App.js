@@ -11,10 +11,11 @@ import { useStateValue } from './StateProvider';
 import { auth } from './firebase'
 import { useEffect } from 'react';
 import Admin from './admin/Admin';
-import ProductPage from './productPage/ProductPage';
+import ProductpageDisplay from './productPage/ProductpageDisplay'
+
 
 function App() {
-  const [{basket}, dispatch]=useStateValue()
+  const [ dispatch]=useStateValue()
   useEffect(()=>{
     auth.onAuthStateChanged(authUser=>{
       
@@ -52,7 +53,7 @@ function App() {
     </Route>
     <Route path='/product-page'> 
       <Header/>             
-      <ProductPage/>
+      <ProductpageDisplay/>
       <Footer/>
     </Route>
 

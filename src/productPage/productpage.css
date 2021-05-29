@@ -2,8 +2,68 @@ a {
   color: black;
 }
 
-.product {
+.pp-product {
   min-height: 100vh;
-  margin-top: 10vh;
+  max-width: 90vw;
+  margin: 20vh auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.pp-product .pp-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.pp-product .two-pics-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pp-product .two-pics-info .two-pics img {
+  margin: 0 1rem 1rem 0;
+}
+
+.pp-product .two-pics-info .pp-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.pp-product .two-pics-info .pp-name button {
+  background-color: black;
+  color: white;
+  padding: .5rem 2rem;
+  border: none;
+  margin-right: 1rem;
 }
 /*# sourceMappingURL=productpage.css.map */

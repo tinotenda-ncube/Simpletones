@@ -1,7 +1,7 @@
 export const initialState={
     basket:[],
     user:null,
-    
+product:[],
 };
 
 //selector
@@ -18,7 +18,10 @@ const reducer= (state, action)=>{
             };
 
             case "SHOW_PRODUCT":
-           
+                return{
+                    ...state,
+                    product: action.product
+                };
 
             case "REMOVE_FROM_BASKET":
                 const index= state.basket.findIndex(

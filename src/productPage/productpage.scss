@@ -3,7 +3,45 @@ a{
 }
 
 
-.product{
+.pp-product{
     min-height: 100vh;
-    margin-top: 10vh;
+    max-width: 90vw;
+    margin: 20vh auto;
+
+    display: flex;
+   
+    justify-content: center;
+    flex-direction: column;
+    .pp-title{
+        display: flex;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+    .two-pics-info{
+        display: flex;
+        align-items: center;
+     
+
+        .two-pics{
+            img{
+                margin: 0 1rem 1rem 0 ;
+            }
+        }
+        .pp-name{
+            display: flex;
+            justify-content: center;
+            flex-direction:column ;
+            button{
+                background-color: black;
+                color: white;
+                padding: .5rem 2rem;
+                border: none;
+                margin-right: 1rem;
+            }
+        }
+    }
 }

@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import ProductPage from '../productPage/ProductPage'
 import { useStateValue } from '../StateProvider'
 import './product.css'
+
 
 const Product = ({ id, title, description,price, image}) => {
 
@@ -21,14 +23,30 @@ const Product = ({ id, title, description,price, image}) => {
             }
         })
     }
+
+    const showProduct=()=>{
+        dispatch({
+            type: "SHOW_PRODUCT",
+            item:{
+                id:id,
+                title:title,
+                description:description,
+                image:image,
+                price:price,
+            }
+        })
+    }
     return (
-        <Link to='/product-page'>
+       
         <div className="product">
-
-            <div className="prod-image">
-               <img src={image} alt=""/>
-            </div>
-
+            <Link to='/product-page'>
+                <div className="prod-image" >
+                    <img src={image} alt=""/>
+                </div>
+            </Link>
+            <ProductPage trigger={true}>
+                MY POPUP
+            </ProductPage>
             <div className="prod-info">
                 <h1 className="label">{title}</h1>
                 <p className='p-tag'> {description}</p>
@@ -43,7 +61,7 @@ const Product = ({ id, title, description,price, image}) => {
              </div>
             </div>
         </div>
-        </Link>
+      
     )
 }
 
